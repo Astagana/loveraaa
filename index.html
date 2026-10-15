@@ -1,0 +1,33 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Lovera – Ruang Cinta</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Fraunces:ital,wght@1,600&display=swap" rel="stylesheet">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script></head><body>
+<div class="bg"></div><div id="toast"></div>
+<main>
+<section id="auth" class="scr card" hidden>
+<h1>Lovera</h1><p class="sub">Ruang privat untuk dua hati</p>
+<div class="tabs"><button id="tL" class="on">Masuk</button><button id="tR">Daftar</button></div>
+<input id="name" placeholder="Nama panggilan" hidden>
+<input id="email" type="email" placeholder="Email" autocomplete="email">
+<input id="pw" type="password" placeholder="Password (min 6)" autocomplete="current-password">
+<div id="gen" class="gen" hidden><label><input type="radio" name="g" value="pria" checked><span>Pria</span></label><label><input type="radio" name="g" value="wanita"><span>Wanita</span></label></div>
+<button id="go" class="btn">Masuk</button>
+</section>
+<section id="home" class="scr card" hidden>
+<div class="row"><h2 id="hi"></h2><button id="out" class="ghost">Keluar</button></div>
+<div id="myav" class="big"></div>
+<div class="row"><input id="avurl" placeholder="Tempel link avatar .glb"><button id="avs" class="btn s">Simpan</button></div>
+<p class="sub">Buat avatar 3D gratis di <a href="https://readyplayer.me" target="_blank" rel="noopener">readyplayer.me</a> (bisa login Google), salin link .glb-nya.</p>
+<button id="cont" class="btn alt" hidden></button>
+<button id="mk" class="btn">Buat room cinta baru</button>
+<div class="row"><input id="code" placeholder="Kode room" maxlength="6" style="text-transform:uppercase"><button id="jn" class="btn s">Gabung</button></div>
+</section>
+<section id="room" class="scr card wide" hidden>
+<div class="row"><button id="lv" class="ghost">‹ Kembali</button><div class="code">Kode <b id="rc"></b></div><button id="cp" class="ghost">Salin</button></div>
+<div id="mem" class="mem"></div>
+<div class="tabs"><button id="tc" class="on">Chat</button><button id="tl">Lokasi</button></div>
+<div id="chat" class="chat"></div>
+<div id="loc" class="locp" hidden><button id="lt" class="btn">Bagikan lokasi saya</button><p id="dist" class="sub"></p><div id="mapbox"></div></div>
+<form id="cf" class="comp"><label class="ic">📷<input id="pap" type="file" accept="image/*" hidden></label><label class="ic">🎬<input id="vid" type="file" accept="video/*" hidden></label><input id="txt" placeholder="Tulis pesan…" maxlength="500" autocomplete="off"><button class="btn s">Kirim</button></form>
+</section>
+</main><script src="app.js"></script></body></html>
