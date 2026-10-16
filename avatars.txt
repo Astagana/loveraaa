@@ -1,0 +1,17 @@
+# Template avatar. Satu baris satu avatar, format:  Nama | link .glb
+# Link harus https dan berakhiran .glb. Baris berawalan # diabaikan.
+# Ukuran file maksimal 4,4 MB (lihat api/glb.js).
+Astronot | https://modelviewer.dev/shared-assets/models/Astronaut.glb
+Robot | https://modelviewer.dev/shared-assets/models/RobotExpressive.glb
+Beruang | https://github.com/Astagana/testing/raw/refs/heads/main/8u67aapj%20(1)%20(1).glb
+Dinoboy | https://github.com/Astagana/testing/raw/refs/heads/main/besttt2i.glb
+BearGirl | https://github.com/Astagana/testing/raw/refs/heads/main/vvcgrr8n%20(1).glb
+Pinky Hair | https://github.com/Astagana/testing/raw/refs/heads/main/k7dv2x4x.glb
+Girl Doll | https://github.com/Astagana/testing/raw/refs/heads/main/oh5diuuf.glb
+Pirate Doll | https://github.com/Astagana/testing/raw/refs/heads/main/rdaierc3.glb
+Stylize girl | https://github.com/Astagana/testing/raw/refs/heads/main/y5xqryyc.glb
+Sopia | https://github.com/Astagana/testing/raw/refs/heads/main/2/aw7o6ot8.glb
+Astra | https://github.com/Astagana/testing/raw/refs/heads/main/2/vksccp6p.glb
+Katak Penyihir | https://github.com/Astagana/testing/raw/refs/heads/main/2/dgjw20l5.glb
+Chloe | https://github.com/Astagana/testing/raw/refs/heads/main/2/pyhpejpz.glb
+Sucipto | https://github.com/Astagana/testing/raw/refs/heads/main/2/vdxtwx14.glb
