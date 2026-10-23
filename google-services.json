@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1006087997686",
+    "project_id": "loveraaa-d4165",
+    "storage_bucket": "loveraaa-d4165.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006087997686:android:7fbfe5b8c04cddb6de44d7",
+        "android_client_info": {
+          "package_name": "com.lovera.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZOGk0K0jeDIYZLei1kLDQITXTnSRNknE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
